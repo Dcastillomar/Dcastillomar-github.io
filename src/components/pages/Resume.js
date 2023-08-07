@@ -17,6 +17,7 @@ export default function Resume() {
     <div style={styles.heading}>
       <h4>Resume</h4>
       <a class="resume" href="https://drive.google.com/file/d/1rYEioJlWrllOJtzPn03Gua6fnWoQ_4_b/view?usp=sharing">Click Here to view my Resume</a>
+       <br></br>
        Skills
         <br></br>
         Front-end: HTML5, CSS3, JavaScript, React, Bootstrap
