@@ -7,7 +7,7 @@ const styles = {
     lineHeight: 3.5,
     fontSize: '1.2rem',
     color: 'white',
-    padding: '0 20px',
+    padding: '30px 20px',
   },
   content: {
     padding: 20,
