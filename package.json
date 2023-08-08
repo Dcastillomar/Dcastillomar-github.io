@@ -1,5 +1,5 @@
 {
-  "name": "dcastillomar-github.io",
+  "homepage": "https://dcastillomar.github.io/dcastillomar-github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.1",
+    "gh-pages": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-loaders": "^3.0.1",
@@ -15,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
